@@ -18,8 +18,8 @@
     <div class="navbar navbar-expand-lg navbar-light bg-light">
 	<h1 id="habbit">Habbit</h1>
 	<div class="topnav" style="padding-left: 25px">
-		<a class="active btn btn-primary" href="index.html">Home</a>
-		<a class="btn btn-primary" href="quiz.html">Survey</a>
+		<a class="btn btn-primary" href="index.html">Home</a>
+		<a class="active btn btn-primary" href="quiz.html">Survey</a>
 		<a class="btn btn-primary" href="login.html">Login</a>
 		<a class="btn btn-primary" href="schedule.html">Schedule</a>
 		<!-- adding schedule here so i can see it on my end -->
@@ -41,7 +41,7 @@
     </div>
     
     <div class="question2">
-      <h2>In what environment do you live?</h2>
+      <h2>In what environment do you live?</h3>
       <input type="radio" name="userEnvironment" id="suburbs">
       <label for="suburbs">Suburbs</label>
       <input type="radio" name="userEnvironment" id="urban">
@@ -51,7 +51,7 @@
     </div>
     
     <div class="question3">
-      <h2>Would you consider yourself an active person?</h2>
+      <h3>Would you consider yourself an active person?</h3>
       <input type="radio" name="lazyLevel" id="yesActive">
       <label for="yesActive">Yes, I like to be out and about</label>
       <input type="radio" name="lazyLevel" id="noActive">
@@ -63,6 +63,7 @@
     </div>
 
   <div class="question4">
+    <h3>What days are you available to perform this hobby?</h3>
     <input type="checkbox" name="day1" id="sunday" value="Sunday">
     <label for="sunday">Sunday</label><br>
     <input type="checkbox" name="day2" id="monday" value="Monday">
@@ -76,9 +77,59 @@
     <input type="checkbox" name="day6" id="friday" value="Friday">
     <label for="friday">Friday</label><br>
     <input type="checkbox" name="day7" id="saturday" value="Saturday">
-    <label for="saturday">Friday</label><br><br>
+    <label for="saturday">Saturday</label><br><br>
   </div>
 
+  <div class="question5">
+    <h3>What are some activities that you are interested in?</h3>
+  </div>
+
+  <div class="question6">
+    <h3>What are some activities that you are potentially interested in?</h3>
+  </div>
+
+  <div class="question7">
+    <h3>What is your learning style? If you dont know, just pick your favorite</h3>
+    <input type="radio" name="learningType" id="auditory">
+    <label for="auditory">Auditory/ by hearing</label>
+    <input type="radio" name="learningType" id="kinesthetic">
+    <label for="kinesthetic">Kinesthetic/ by doing</label>
+    <input type="radio" name="learningType" id="visual">
+    <label for="visual">Visual/ by seeing and kinesthetic/ by seeing and doing</label>
+    <input type="radio" name="learningType" id="visualKine">
+    <label for="visualKine">Visual and kinesthetic/ by seeing and doing</label>
+    <input type="radio" name="learningType" id="auditoryKine">
+    <label for="auditoryKine">Auditory and kinesthetic/ by hearing and doing</label>
+    <input type="radio" name="learningType" id="visualAud">
+    <label for="visualAud">Visual and auditory/ by seeing and hearing</label>
+  </div>
+
+  <div class="question8">
+    <h3>How long would you want to dedicate to your hobby?</h3>
+  </div>
+
+  <div class="question8">
+    <h3>What is your IP adress?  (so we could send you the things you need)</h3>
+    <input type="text">
+  </div>
+
+  <div class="question9">
+    <h3>Do you want a hobby you can make money from?</h3>
+    <input type="radio" name="hobbyMoney" id="yesMoney">
+    <label for="yesMoney">Yes</label>
+    <input type="radio" name="hobbyMoney" id="noMoney">
+    <label for="noMoney">No</label>
+  </div>
+
+  <div class="question10">
+    <h3>Are you an indoor or an outdoor person?</h3>
+    <input type="radio" name="inOrOut" id="indoor">
+    <label for="yesMoney">Indoor</label>
+    <input type="radio" name="inOrOut" id="outdoor">
+    <label for="outdoor">Outdoor</label>
+    <input type="radio" name="inOrOut" id="either">
+    <label for="either">both/doesn't matter</label>
+  </div>
 
     <h5>get results</h5>
     	<a class="btn btn-primary" href="results.html">Results</a>

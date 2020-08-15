@@ -7,12 +7,14 @@ body{
   margin: 0;
 }
 
-#app-calendar{
+#app-calendar {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   /* you can write 1fr 7 times to divide it into 7 days of the week like this : grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  or do it like i did above*/
-  grid-auto-rows: repeat(5, 1fr);
-  height: 100%;
+  grid-template-rows: repeat(5, 1fr);
+  height: 500px;
+  width: 500px;
+ 
   /* extends calendar */
 }
 
@@ -36,6 +38,10 @@ body{
 
 .weekend{
   color: var(--light-blue);
+}
+
+.zero{
+  color: vae(--light-gray);
 }
 
 .selected{
