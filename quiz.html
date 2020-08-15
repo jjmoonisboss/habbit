@@ -1,11 +1,33 @@
-
-
+<!DOCTYPE html>
 <html>
-  <head>
-    <style>
-    </style>
-  </head>
-  <body>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>rabbit</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+	 crossorigin="anonymous">
+
+</head>
+
+<body>
+
+
+    <div class="navbar navbar-expand-lg navbar-light bg-light">
+	<h1 id="habbit">Habbit</h1>
+	<div class="topnav" style="padding-left: 25px">
+		<a class="active btn btn-primary" href="index.html">Home</a>
+		<a class="btn btn-primary" href="quiz.html">Survey</a>
+		<a class="btn btn-primary" href="login.html">Login</a>
+		<a class="btn btn-primary" href="schedule.html">Schedule</a>
+		<!-- adding schedule here so i can see it on my end -->
+	</div>
+  </div>
+
+
+
     <h5>Hello! What is your name?</h5>
     <input type="text">
     <div class="question1">
@@ -17,16 +39,45 @@
       <input type="radio" name="userHobby" id="jewel">
       <label for="jewel">Jewelry Making</label>
     </div>
+    
     <div class="question2">
       <h2>In what environment do you live?</h2>
       <input type="radio" name="userEnvironment" id="suburbs">
       <label for="suburbs">Suburbs</label>
-      <input type="radio" name="userHobby" id="urban">
+      <input type="radio" name="userEnvironment" id="urban">
       <label for="urban">Urban</label>
-      <input type="radio" name="userHobby" id="rural">
+      <input type="radio" name="userEnvironment" id="rural">
       <label for="rural">Rural</label>
     </div>
+    
+    <div class="question3">
+      <h2>Would you consider yourself an active person?</h2>
+      <input type="radio" name="lazyLevel" id="yesActive">
+      <label for="yesActive">Yes, I like to be out and about</label>
+      <input type="radio" name="lazyLevel" id="noActive">
+      <label for="noActive">No, but i would like to be more active</label>
+      <input type="radio" name="lazyLevel" id="noSit">
+      <label for="noSit">No, I prefer sitting down and relaxing</label>
+      <input type="radio" name="lazyLevel" id="noThink">
+      <label for="noThink">No, I like thinking more</label>
+    </div>
 
+  <div class="question4">
+    <input type="checkbox" name="day1" id="sunday" value="Sunday">
+    <label for="sunday">Sunday</label><br>
+    <input type="checkbox" name="day2" id="monday" value="Monday">
+    <label for="monday">Monday</label><br>
+    <input type="checkbox" name="day3" id="tuesday" value="Tuesday">
+    <label for="tuesday">Tuesday</label><br>
+    <input type="checkbox" name="day4" id="wednesday" value="Wednesday">
+    <label for=""></label><br>
+    <input type="checkbox" name="day5" id="thursday" value="Thurday">
+    <label for="thursday">Thursday</label><br>
+    <input type="checkbox" name="day6" id="friday" value="Friday">
+    <label for="friday">Friday</label><br>
+    <input type="checkbox" name="day7" id="saturday" value="Saturday">
+    <label for="saturday">Friday</label><br><br>
+  </div>
 
 
     <h5>get results</h5>
