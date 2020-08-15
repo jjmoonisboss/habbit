@@ -1,7 +1,7 @@
 #habbit{
    font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
 }
-#placeholder{
+/* #placeholder{
   background-color: black;
   height: 50px;
   margin-bottom: 20px;
@@ -13,10 +13,11 @@
   font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
   color: gray;
   float: left;
+  padding-left: 50px;
 }
 .description{
-
+  float: left;
 }
 #features{
-
-}
+  float: left;
+} */
