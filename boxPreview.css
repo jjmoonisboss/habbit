@@ -1,16 +1,18 @@
 #habbit{
    font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
 }
-.placeholder{
-  background-c
+#placeholder{
+  background-color: black;
+  height: 50px;
+  margin-bottom: 20px;
 }
 #boxImg{
-  padding-top: 100px;
+  float:left;
 }
 #title{
   font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
   color: gray;
-  float: right;
+  float: left;
 }
 .description{
 
