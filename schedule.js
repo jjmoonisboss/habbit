@@ -27,14 +27,23 @@ for(let day= 0; day<= 31; day++){
     .format(date);
 }
 
-const dayName = getDayName(day);
-
+  let name ="";
+  if (day < 7 ){
+   const dayName = getDayName(day);
+   name = `<div class="name">${dayName}</div>`;
+  }
+  //^^ makes sure days of the week dont repeat
 
 
   console.log(getDayName(day))
 
-  calendar.insertAdjacentHTML("beforeend",`<div class="day ${weekend ? "weekend" : ""} ${zero ? "zero" : ""}"><div class="name">${dayName}</div>${day}</div>`);
+  calendar.insertAdjacentHTML("beforeend",`<div class="day ${weekend ? "weekend" : ""} ${zero ? "zero" : ""}">${name}${day}</div>`);
   // repeats for every day
-
-
 }
+
+document.querySelectorAll("#app-calendar .day").forEach(day =>{
+  day.addEventListener("click", event =>{
+    event.currentTarget.classList.toggle("selected");
+    //toggle gives you the option to select or unselect an option
+  });
+});

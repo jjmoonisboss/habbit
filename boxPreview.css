@@ -9,14 +9,24 @@
           background: rgb(245, 115, 175); */ 
   /* margin-bottom: 100px; */
 }
-
+#boxImg{
+  margin-top: 2%;
+  float: left;
+}
 #title{
   font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
   color: gray;
-  float: right;
+  float: left;
+  padding-left: 3%;
+  margin-top: 4%;
+}
+#price{
+  color: gray;
+  padding-left: 4%;
 }
 .description{
   float: left;
+  position: relative;
 }
 #features{
   float: left;
