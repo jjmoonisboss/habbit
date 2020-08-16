@@ -1,0 +1,24 @@
+
+.titleQuestion{
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 20px;
+}
+.titleQuestion h3{
+  /* color: grey; */
+  text-align: center;
+  padding-right: 50%;
+}
+.titleQuestion h5{
+  padding-top: 150px;
+}
+label{
+  text-align: center;
+  color: black;
+}
+input{
+  float: center;
+}
+html, body {
+    background-color: #fe9a92 !important;
+}

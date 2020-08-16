@@ -1,33 +1,25 @@
+html, body {
+    background-color: #fe9a92 !important;
+}
 #habbit {
   text-align: center;
   color: rgb(0, 4, 255);
-          /* margin-left: 300px;
-          color: rgb(0, 4, 255);
-          border-style: solid;
-          /* border-color: lawngreen; */
-          /* border-width: 2px;
-          background: rgb(245, 115, 175); */ 
-  /* margin-bottom: 100px; */
 }
 
 #title{
   font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
-  color: gray;
+  color: black;
   float: left;
   padding-left: 3%;
   /* margin-top: 4%; */
 }
 #belowH{
   text-align: left;
-  padding-top: 30px;
-  margin-right: 300px;
-  position: static;
+  margin-right: 600px;
+  margin-left: 100px;
+  /* position: static;  */
 }
-div{
-  border-color: white;
-  border
-  position: static;
-}
+
 /* .description{
   float: left;
   color: gray;
@@ -46,12 +38,39 @@ div{
   padding-left: 4%;
 }*/
 #boxImg{
-  margin-top: 2%;
+  margin-top: 5%;
   float: left;
+  margin-left: 30px;
 }
 button{
-  float: right;
+  padding: 14px 16px;
+  font-size: 22px;
+  font-weight: bold;
+  border-radius: 5px;
+  float: left;
+  margin-left: 20%;
+  background-color: #06f;
+  color: white;
+  border: transparent; 
+  margin-left: 70%;
 }
-body{
-  background-color: #bac7ff;
+
+
+li{
+  list-style-position: inside;
+  text-align: center;
+  margin-right: 25%;
 }
+ul {
+  display: inline-block;
+}
+.titles{
+  margin-left: 35%;
+}
+#des{
+  text-align: center;
+}
+/* li{
+  float: left;
+  margin-left: 30px;
+} */

@@ -5,15 +5,15 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
 	<title>rabbit</title>
-	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="quiz.css" rel="stylesheet" type="text/css" />
 
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
 	 crossorigin="anonymous">
 
 </head>
 
-<body>
-
+<body style="background-color:#bac7ff;">
+  
   <div class="navbar navbar-expand-lg navbar-light bg-light">
 	  <h2 id="habbit">Habbit</h2>
     <div class="topnav" style="padding-left: 25px">
@@ -24,56 +24,54 @@
       <!-- adding schedule here so i can see it on my end -->
     </div>
   </div>
-
-
-
-  <h5>Hello! What is your name?</h5>
-  <input type="text">
+<br> <h1 id="title" style="text-align: center;">Let's get to know you!</h1> <br>
+  <!-- <h5 class = "titleQuestion">Hello! What is your name?</h5>
+  <input type="text"> -->
     
-  <div class="question1">
-    <h3>What type of environment do you live in?</h3>
+  <div class = "titleQuestion" id="question1">
+    <h3>What type of environment do you live in?</h3><hr>
     <input type="radio" name="userEnvironment" id="suburbs">
-    <label for="suburbs">Suburbs</label>
+    <label for="suburbs">Suburbs</label><br>
     <input type="radio" name="userEnvironment" id="urban">
-    <label for="urban">Urban</label>
+    <label for="urban">Urban</label><br>
     <input type="radio" name="userEnvironment" id="rural">
-    <label for="rural">Rural</label>
+    <label for="rural">Rural</label><br>
   </div>
 
-  <div class="question2">
-    <h3>Are you an indoor or an outdoor person?</h3>
+  <div class = "titleQuestion" id="question2">
+    <h3>Are you an indoor or an outdoor person?</h3><hr>
     <input type="radio" name="inOrOut" id="indoor">
-    <label for="yesMoney">Indoor</label>
+    <label for="yesMoney">Indoor</label><br>
     <input type="radio" name="inOrOut" id="outdoor">
-    <label for="outdoor">Outdoor</label>
+    <label for="outdoor">Outdoor</label><br>
     <input type="radio" name="inOrOut" id="either">
-    <label for="either">both/doesn't matter</label>
+    <label for="either">both/doesn't matter</label><br>
   </div>
 
-  <div class="question3">
-    <h3>Would you consider yourself an active person?</h3>
+  <div class = "titleQuestion" id="question3">
+    <h3>Would you consider yourself an active person?</h3><hr>
     <input type="radio" name="lazyLevel" id="yesActive">
-    <label for="yesActive">Yes, I like to be out and about</label>
+    <label for="yesActive">Yes, I like to be out and about</label><br>
     <input type="radio" name="lazyLevel" id="noActive">
-    <label for="noActive">No, but i would like to be more active</label>
+    <label for="noActive">No, but i would like to be more active</label><br>
     <input type="radio" name="lazyLevel" id="noSit">
-    <label for="noSit">No, I prefer sitting down and relaxing</label>
+    <label for="noSit">No, I prefer sitting down and relaxing</label><br>
     <input type="radio" name="lazyLevel" id="noThink">
-    <label for="noThink">No, I like thinking more</label>
+    <label for="noThink">No, I like thinking more</label><br>
   </div>
 
-<div class="question4">
-    <h3>Which of these hobbies would you be interested in?</h3>
+<div class = "titleQuestion" id="question4">
+    <h3>Which of these hobbies would you be interested in?</h3><hr>
     <input type="radio" name="userHobby" id="drawing">
-    <label for="drawing">Drawing</label>
+    <label for="drawing">Drawing</label><br>
     <input type="radio" name="userHobby" id="roller">
-    <label for="roller">Roller Skating</label>
+    <label for="roller">Roller Skating</label><br>
     <input type="radio" name="userHobby" id="jewel">
-    <label for="jewel">Jewelry Making</label>
+    <label for="jewel">Jewelry Making</label><br>
   </div>
 
-  <div class="question5">
-    <h3>What days are you available to perform this hobby?</h3>
+  <div class = "titleQuestion" id="question5">
+    <h3>What days are you available to perform this hobby?</h3><hr>
     <input type="checkbox" name="day1" id="sunday" value="Sunday">
     <label for="sunday">Sunday</label><br>
     <input type="checkbox" name="day2" id="monday" value="Monday">
@@ -81,7 +79,7 @@
     <input type="checkbox" name="day3" id="tuesday" value="Tuesday">
     <label for="tuesday">Tuesday</label><br>
     <input type="checkbox" name="day4" id="wednesday" value="Wednesday">
-    <label for=""></label>Wednesday<br>
+    <label for="wednesday">Wednesday</label><br>
     <input type="checkbox" name="day5" id="thursday" value="Thurday">
     <label for="thursday">Thursday</label><br>
     <input type="checkbox" name="day6" id="friday" value="Friday">
@@ -90,56 +88,56 @@
     <label for="saturday">Saturday</label><br><br>
   </div>
 
-  <div class="question6">
-    <h3>What are some activities that you are interested in?</h3>
+  <div class = "titleQuestion" id="question6">
+    <h3>What are some activities that you are interested in?</h3><hr>
     <input type="text">
   </div>
 
-  <div class="question7">
-    <h3>What are some activities that you are potentially interested in?</h3>
+  <div class = "titleQuestion" id="question7">
+    <h3>What are some activities that you are potentially interested in?</h3><hr>
     <input type="text">
   </div>
 
-  <div class="question8">
-    <h3>What is your learning style? If you dont know, just pick your favorite</h3>
+  <div class = "titleQuestion" id="question8">
+    <h3>What is your learning style? If you dont know, just pick your favorite</h3><hr>
     <input type="radio" name="learningType" id="auditory">
-    <label for="auditory">Auditory/ by hearing</label>
+    <label for="auditory">Auditory/ by hearing</label><br>
     <input type="radio" name="learningType" id="kinesthetic">
-    <label for="kinesthetic">Kinesthetic/ by doing</label>
+    <label for="kinesthetic">Kinesthetic/ by doing</label><br>
     <input type="radio" name="learningType" id="visual">
-    <label for="visual">Visual/ by seeing and kinesthetic/ by seeing and doing</label>
+    <label for="visual">Visual/ by seeing and kinesthetic/ by seeing and doing</label><br>
     <input type="radio" name="learningType" id="visualKine">
-    <label for="visualKine">Visual and kinesthetic/ by seeing and doing</label>
+    <label for="visualKine">Visual and kinesthetic/ by seeing and doing</label><br>
     <input type="radio" name="learningType" id="auditoryKine">
-    <label for="auditoryKine">Auditory and kinesthetic/ by hearing and doing</label>
+    <label for="auditoryKine">Auditory and kinesthetic/ by hearing and doing</label><br>
     <input type="radio" name="learningType" id="visualAud">
-    <label for="visualAud">Visual and auditory/ by seeing and hearing</label>
+    <label for="visualAud">Visual and auditory/ by seeing and hearing</label><br>
   </div>
 
-  <div class="question9">
-    <h3>How long would you want to dedicate to your hobby?</h3>
+  <div class = "titleQuestion" id="question9">
+    <h3>How long would you want to dedicate to your hobby?</h3><hr>
     <input type="radio" name="learnTime" id="quick">
-    <label for="quick">Quickly: 10-20 mins</label>
+    <label for="quick">Quickly: 10-20 mins</label><br>
     <input type="radio" name="learnTime" id="middle">
-    <label for="middle">In the middle: 30 mins - 1 hr</label>
+    <label for="middle">In the middle: 30 mins - 1 hr</label><br>
     <input type="radio" name="learnTime" id="slower">
-    <label for="slower">Slower: 3+ hrs</label>
+    <label for="slower">Slower: 3+ hrs</label><br>
     <input type="radio" name="learningType" id="whenever">
-    <label for="whenever">Flexible: it doesn't really matter/ it changes from time to time</label>
+    <label for="whenever">Flexible: it doesn't really matter/ it changes from time to time</label><br>
   </div>
 
 
-  <div class="question10">
-    <h3>Do you want a hobby you can make money from?</h3>
+  <div class = "titleQuestion" id="question10">
+    <h3>Do you want a hobby you can make money from?</h3><hr>
     <input type="radio" name="hobbyMoney" id="yesMoney">
-    <label for="yesMoney">Yes</label>
+    <label for="yesMoney">Yes</label><br>
     <input type="radio" name="hobbyMoney" id="noMoney">
     <label for="noMoney">No</label>
   </div>
 
-  
+   <div style="padding-left: 5rem; padding-bottom: 5rem; padding-top: 1rem">
+    	<a class="btn btn-primary btn-lg" href="results.html" >I'm ready!</a>
+    </div>
 
-    <h5>get results</h5>
-    	<a class="btn btn-primary" href="results.html">Results</a>
   </body>
 </html>

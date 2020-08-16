@@ -1,16 +1,19 @@
-html{
-    background-color:#bac7ff;
+html, body {
+    background-color: #fe9a92 !important;
 }
+
+
 
 #habbit {
   /* text-align: center; */
-  color: rgb(0, 4, 255);
+  /* color: rgb(0, 4, 255); */
   /* border-style: solid; */
   /* border-color: lawngreen; */
   /* border-width: 2px; */
   /* background: rgb(245, 115, 175); */
 }
 
-#boredOne {
-
+.btn btn-primary{
+  color: black;
+background-color: #ffb07e;
 }
