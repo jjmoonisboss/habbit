@@ -12,9 +12,8 @@ body{
   grid-template-columns: repeat(7, 1fr);
   /* you can write 1fr 7 times to divide it into 7 days of the week like this : grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  or do it like i did above*/
   grid-template-rows: repeat(5, 1fr);
-  height: 500px;
-  width: 500px;
- 
+  height: 100%;
+  width: 100%;
   /* extends calendar */
 }
 
