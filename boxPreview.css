@@ -9,27 +9,48 @@
           background: rgb(245, 115, 175); */ 
   /* margin-bottom: 100px; */
 }
-#boxImg{
-  margin-top: 2%;
-  float: left;
-}
+
 #title{
   font-family: "Benton Sans", "Helvetica Neue", helvetica arial, sans-serif;
   color: gray;
   float: left;
   padding-left: 3%;
-  margin-top: 4%;
+  /* margin-top: 4%; */
+}
+#belowH{
+  text-align: left;
+  padding-top: 30px;
+  margin-right: 300px;
+  position: static;
+}
+div{
+  border-color: white;
+  border
+  position: static;
+}
+/* .description{
+  float: left;
+  color: gray;
+  padding-left: 4%;
+  
 }
 #price{
   color: gray;
   padding-left: 4%;
-}
-.description{
   float: left;
-  position: relative;
 }
+
 #features{
   float: left;
+  color: gray;
+  padding-left: 4%;
+}*/
+#boxImg{
+  margin-top: 2%;
+  float: left;
+}
+button{
+  float: right;
 }
 body{
   background-color: #bac7ff;
